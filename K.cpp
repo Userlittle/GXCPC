@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main() {
 	int T,n,output[100];
-	int n_output = 0;//记录输出个数
+	int n_output = 0;//璁板綍杈撳嚭涓暟
 	char a;//ai
 	int b;//bi
 	char A[100],B[100];
@@ -11,9 +11,9 @@ int main() {
 	while (T) {
 		int n_A, n_B;
 		n_A = 0;
-		n_B = 0;//记录A B个数
+		n_B = 0;//璁板綍A B涓暟
 		for (int nb = 0; nb < 2; nb++) {
-			printf("请输入n:");
+			printf("璇疯緭鍏:");
 			scanf_s("%d", &n); getchar();
 			for (int i = 0; i < n; i++) {
 				scanf_s("%c", &a); getchar();
@@ -31,15 +31,7 @@ int main() {
 			}//A B
 		}
 
-		/*for (int i = 0; i < n_A; i++) {
-			printf("%c", A[i]);
-		}
-		printf("\n");
-		for (int i = 0; i < n_B; i++) {
-			printf("%c", B[i]);
-		}
-		printf("\n");*/
-		/*直接判断*/
+		/*鐩存帴鍒ゆ柇*/
 		int k1=0;
 		int k2=0;
 		int num = 0;
