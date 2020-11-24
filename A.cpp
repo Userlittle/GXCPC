@@ -33,7 +33,7 @@ void sort(double c[],int l,int r) {
 		sort(c, l, i - 1);
 		sort(c, i + 1, r);
 	}
-}//¿ìÅÅ
+}//å¿«æ’
 
 int main() {
 	int T;
